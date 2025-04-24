@@ -1,6 +1,6 @@
-# 📝 Flutter To-Do List App
+# 📝 Flutter To-Do App (with Node.js & MongoDB Backend)
 
-A simple, minimal, and responsive To-Do list app built with Flutter. Organize your tasks, mark them done, and stay productive!
+A full-stack To-Do list app built with Flutter (frontend) and Node.js + MongoDB (backend). Organize your tasks, mark them done, and stay productive—your data is securely stored in the cloud!
 
 ---
 
@@ -10,17 +10,16 @@ A simple, minimal, and responsive To-Do list app built with Flutter. Organize yo
 - 📋 View all tasks
 - ❌ Delete tasks
 - ✔️ Mark tasks as completed
-- 🕗 Persistent storage using `shared_preferences`
+- ☁️ Backend API using Node.js + Express
+- 🗃️ MongoDB for data persistence
 
 ---
 
 ## 📱 Screenshots
 
-(Add some screenshots here, e.g.)
-
 | Home Screen |
 |-------------|
-| ![home](screenshots/home.png) |
+| ![home](screenshots/home.png) | 
 
 ---
 
@@ -30,9 +29,16 @@ A simple, minimal, and responsive To-Do list app built with Flutter. Organize yo
 
 - Flutter SDK (>= 3.7.0)
 - Dart SDK
+- Node.js (>= 18.x)
+- MongoDB Atlas or local MongoDB
 - Android Studio / VS Code
 
-### Install dependencies
+---
+
+## 🛠️ Backend Setup
+
+1. Clone the repo and go to the `backend` folder:
 
 ```bash
-flutter pub get
+git clone https://github.com/your-username/flutter_todo_app.git
+cd flutter_todo_app/backend
