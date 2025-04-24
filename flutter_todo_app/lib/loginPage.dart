@@ -101,7 +101,7 @@ class _SignInPageState extends State<SignInPage> {
                 children: <Widget>[
                   CommonLogo(),
                   HeightBox(10),
-                  "Email SignIn".text.size(22).yellow100.make(),
+                  "Email SignIn".text.size(21).yellow100.make(),
                   TextField(
                     controller: emailController,
                     keyboardType: TextInputType.text,
